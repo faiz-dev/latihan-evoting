@@ -1,0 +1,21 @@
+.operator-container {
+  max-width: 480px;
+  min-height: calc(100vh - 10px);
+  margin: auto;
+  background-color: #E9F3F5;
+  border-radius: 8px;
+  padding: 27px;
+}
+
+@media screen and (min-width: 481px) {
+  .operator-container {
+    max-width: 980px;
+    margin-top: 30px;
+    min-height: calc(100vh - 120px);
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2em;
+}
